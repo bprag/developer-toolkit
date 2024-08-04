@@ -1,0 +1,12 @@
+.search {
+  @apply w-full py-3.5 px-4 box-border select-none;
+  .searchLayout {
+    @apply flex items-center justify-between;
+    .searchInput {
+      @apply flex-1 outline-none text-inferior-800 bg-transparent h-5 ml-2 text-xs;
+    }
+    .searchSetting {
+      @apply text-inferior-800;
+    }
+  }
+}

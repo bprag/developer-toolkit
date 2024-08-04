@@ -1,0 +1,8 @@
+html,
+body {
+  @apply h-full relative;
+}
+
+.drag {
+  --webkit-app-region: drag;
+}

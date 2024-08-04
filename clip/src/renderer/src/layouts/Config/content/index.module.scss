@@ -1,0 +1,7 @@
+.container {
+  @apply flex-1 bg-inferior-100  rounded-[4px] p-2;
+
+  textarea {
+    @apply w-full h-full bg-transparent outline-none resize-none text-inferior;
+  }
+}
